@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A95570CB7E59A899B3320237 /* libPods-AdMoreSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CAF7AFE347FA30F8102F6C /* libPods-AdMoreSDKDemo.a */; };
+		F00282B82A0882B600DAF425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F00282B62A0882B600DAF425 /* Main.storyboard */; };
+		F00282BA2A0882B700DAF425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00282B92A0882B700DAF425 /* Assets.xcassets */; };
+		F00282BD2A0882B700DAF425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F00282BB2A0882B700DAF425 /* LaunchScreen.storyboard */; };
+		F00282C02A0882B700DAF425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F00282BF2A0882B700DAF425 /* main.m */; };
+		F00282E12A08866000DAF425 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00282E02A08866000DAF425 /* Accelerate.framework */; };
+		F00282E32A08866700DAF425 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00282E22A08866700DAF425 /* AdSupport.framework */; };
+		F00282E52A08866E00DAF425 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00282E42A08866E00DAF425 /* AudioToolbox.framework */; };
+		F00282E72A08867400DAF425 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00282E62A08867400DAF425 /* AVFoundation.framework */; };
+		F00282E92A08867B00DAF425 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00282E82A08867B00DAF425 /* CoreGraphics.framework */; };
+		F00282EB2A08868100DAF425 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00282EA2A08868100DAF425 /* CoreImage.framework */; };
+		F00282ED2A08868C00DAF425 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00282EC2A08868C00DAF425 /* CoreLocation.framework */; };
+		F00282EF2A08869600DAF425 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00282EE2A08869600DAF425 /* CoreMedia.framework */; };
+		F00282F12A08869C00DAF425 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00282F02A08869C00DAF425 /* CoreMotion.framework */; };
+		F00282F32A0886A200DAF425 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00282F22A0886A200DAF425 /* CoreTelephony.framework */; };
+		F00282F52A0886A900DAF425 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00282F42A0886A900DAF425 /* CoreText.framework */; };
+		F00282F72A0886B000DAF425 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00282F62A0886B000DAF425 /* ImageIO.framework */; };
+		F00282F92A0886B600DAF425 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00282F82A0886B600DAF425 /* JavaScriptCore.framework */; };
+		F00282FB2A0886BD00DAF425 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00282FA2A0886BD00DAF425 /* MapKit.framework */; };
+		F00282FD2A0886C400DAF425 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00282FC2A0886C400DAF425 /* MediaPlayer.framework */; };
+		F00282FF2A0886CB00DAF425 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00282FE2A0886CB00DAF425 /* MobileCoreServices.framework */; };
+		F00283012A0886D100DAF425 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00283002A0886D100DAF425 /* QuartzCore.framework */; };
+		F00283032A0886D800DAF425 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00283022A0886D800DAF425 /* Security.framework */; };
+		F00283072A0886E800DAF425 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00283062A0886E800DAF425 /* SystemConfiguration.framework */; };
+		F00283092A0886EF00DAF425 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00283082A0886EF00DAF425 /* UIKit.framework */; };
+		F002830B2A0886F600DAF425 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F002830A2A0886F600DAF425 /* WebKit.framework */; };
+		F002830D2A0886FE00DAF425 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F002830C2A0886FE00DAF425 /* libbz2.tbd */; };
+		F002830F2A08871500DAF425 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F002830E2A08871500DAF425 /* libc++.tbd */; };
+		F00283112A08871D00DAF425 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F00283102A08871D00DAF425 /* libiconv.tbd */; };
+		F00283132A08872700DAF425 /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F00283122A08872700DAF425 /* libresolv.9.tbd */; };
+		F00283152A08873000DAF425 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F00283142A08873000DAF425 /* libsqlite3.tbd */; };
+		F00283172A08873800DAF425 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F00283162A08873800DAF425 /* libxml2.tbd */; };
+		F00283192A08873F00DAF425 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F00283182A08873E00DAF425 /* libz.tbd */; };
+		F002831B2A08874900DAF425 /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F002831A2A08874900DAF425 /* libc++abi.tbd */; };
+		F00286CF2A08ADB000DAF425 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00286CE2A08ADB000DAF425 /* StoreKit.framework */; };
+		F002871C2A08C83300DAF425 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F002871B2A08C83300DAF425 /* CoreFoundation.framework */; };
+		F00287272A08CD3400DAF425 /* DeviceCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00287262A08CD3300DAF425 /* DeviceCheck.framework */; };
+		F02CC7DE2A429041005EDCC9 /* AdMoreBannerAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = F02CC7C12A429041005EDCC9 /* AdMoreBannerAdController.m */; };
+		F02CC7DF2A429041005EDCC9 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F02CC7C62A429041005EDCC9 /* MBProgressHUD.m */; };
+		F02CC7E02A429041005EDCC9 /* UIView+HHAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F02CC7C72A429041005EDCC9 /* UIView+HHAdditions.m */; };
+		F02CC7E12A429041005EDCC9 /* MBProgressHUD+HHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F02CC7C92A429041005EDCC9 /* MBProgressHUD+HHExtension.m */; };
+		F02CC7E22A429041005EDCC9 /* UIView+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F02CC7CB2A429041005EDCC9 /* UIView+HUD.m */; };
+		F02CC7E32A429041005EDCC9 /* AdMoreRewardVideoAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = F02CC7CE2A429041005EDCC9 /* AdMoreRewardVideoAdController.m */; };
+		F02CC7E42A429041005EDCC9 /* AdMoreSplashAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = F02CC7CF2A429041005EDCC9 /* AdMoreSplashAdController.m */; };
+		F02CC7E52A429041005EDCC9 /* AdMoreDrawAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = F02CC7D02A429041005EDCC9 /* AdMoreDrawAdController.m */; };
+		F02CC7E62A429041005EDCC9 /* AdMoreFullScreenInterstitialAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = F02CC7D12A429041005EDCC9 /* AdMoreFullScreenInterstitialAdController.m */; };
+		F02CC7E72A429041005EDCC9 /* AdMoreNativeAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = F02CC7D32A429041005EDCC9 /* AdMoreNativeAdController.m */; };
+		F02CC7E82A429041005EDCC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F02CC7D52A429041005EDCC9 /* AppDelegate.m */; };
+		F02CC7E92A429041005EDCC9 /* AdMoreHomeListController.m in Sources */ = {isa = PBXBuildFile; fileRef = F02CC7D92A429041005EDCC9 /* AdMoreHomeListController.m */; };
+		F02CC7EA2A429041005EDCC9 /* AdMoreBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = F02CC7DD2A429041005EDCC9 /* AdMoreBaseController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F0210FAD2A164EA9008E3BFC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		159EBEBC980FCE2B886E94DB /* Pods-AdMoreSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMoreSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-AdMoreSDKDemo/Pods-AdMoreSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		45CAF7AFE347FA30F8102F6C /* libPods-AdMoreSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdMoreSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCCED2198F9C2F70303DDAD /* Pods-AdMoreSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMoreSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-AdMoreSDKDemo/Pods-AdMoreSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F00282AA2A0882B600DAF425 /* AdMoreSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdMoreSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00282B72A0882B600DAF425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F00282B92A0882B700DAF425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F00282BC2A0882B700DAF425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F00282BE2A0882B700DAF425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F00282BF2A0882B700DAF425 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F00282E02A08866000DAF425 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		F00282E22A08866700DAF425 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		F00282E42A08866E00DAF425 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F00282E62A08867400DAF425 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F00282E82A08867B00DAF425 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F00282EA2A08868100DAF425 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		F00282EC2A08868C00DAF425 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F00282EE2A08869600DAF425 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F00282F02A08869C00DAF425 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		F00282F22A0886A200DAF425 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F00282F42A0886A900DAF425 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		F00282F62A0886B000DAF425 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		F00282F82A0886B600DAF425 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F00282FA2A0886BD00DAF425 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F00282FC2A0886C400DAF425 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F00282FE2A0886CB00DAF425 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F00283002A0886D100DAF425 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F00283022A0886D800DAF425 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F00283062A0886E800DAF425 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F00283082A0886EF00DAF425 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F002830A2A0886F600DAF425 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		F002830C2A0886FE00DAF425 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		F002830E2A08871500DAF425 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F00283102A08871D00DAF425 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		F00283122A08872700DAF425 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		F00283142A08873000DAF425 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F00283162A08873800DAF425 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		F00283182A08873E00DAF425 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F002831A2A08874900DAF425 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		F00286CE2A08ADB000DAF425 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F002871B2A08C83300DAF425 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		F00287262A08CD3300DAF425 /* DeviceCheck.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceCheck.framework; path = System/Library/Frameworks/DeviceCheck.framework; sourceTree = SDKROOT; };
+		F02CC7C02A429041005EDCC9 /* AdMoreNativeAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMoreNativeAdController.h; sourceTree = "<group>"; };
+		F02CC7C12A429041005EDCC9 /* AdMoreBannerAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdMoreBannerAdController.m; sourceTree = "<group>"; };
+		F02CC7C22A429041005EDCC9 /* AdMoreFullScreenInterstitialAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMoreFullScreenInterstitialAdController.h; sourceTree = "<group>"; };
+		F02CC7C32A429041005EDCC9 /* AdMoreDrawAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMoreDrawAdController.h; sourceTree = "<group>"; };
+		F02CC7C42A429041005EDCC9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F02CC7C62A429041005EDCC9 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		F02CC7C72A429041005EDCC9 /* UIView+HHAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HHAdditions.m"; sourceTree = "<group>"; };
+		F02CC7C82A429041005EDCC9 /* UIView+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HUD.h"; sourceTree = "<group>"; };
+		F02CC7C92A429041005EDCC9 /* MBProgressHUD+HHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+HHExtension.m"; sourceTree = "<group>"; };
+		F02CC7CA2A429041005EDCC9 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F02CC7CB2A429041005EDCC9 /* UIView+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HUD.m"; sourceTree = "<group>"; };
+		F02CC7CC2A429041005EDCC9 /* UIView+HHAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HHAdditions.h"; sourceTree = "<group>"; };
+		F02CC7CD2A429041005EDCC9 /* MBProgressHUD+HHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+HHExtension.h"; sourceTree = "<group>"; };
+		F02CC7CE2A429041005EDCC9 /* AdMoreRewardVideoAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdMoreRewardVideoAdController.m; sourceTree = "<group>"; };
+		F02CC7CF2A429041005EDCC9 /* AdMoreSplashAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdMoreSplashAdController.m; sourceTree = "<group>"; };
+		F02CC7D02A429041005EDCC9 /* AdMoreDrawAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdMoreDrawAdController.m; sourceTree = "<group>"; };
+		F02CC7D12A429041005EDCC9 /* AdMoreFullScreenInterstitialAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdMoreFullScreenInterstitialAdController.m; sourceTree = "<group>"; };
+		F02CC7D22A429041005EDCC9 /* AdMoreBannerAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMoreBannerAdController.h; sourceTree = "<group>"; };
+		F02CC7D32A429041005EDCC9 /* AdMoreNativeAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdMoreNativeAdController.m; sourceTree = "<group>"; };
+		F02CC7D42A429041005EDCC9 /* AdMoreRewardVideoAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMoreRewardVideoAdController.h; sourceTree = "<group>"; };
+		F02CC7D52A429041005EDCC9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F02CC7D62A429041005EDCC9 /* AdSlotIdDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSlotIdDefine.h; sourceTree = "<group>"; };
+		F02CC7D72A429041005EDCC9 /* AdMoreSplashAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMoreSplashAdController.h; sourceTree = "<group>"; };
+		F02CC7D92A429041005EDCC9 /* AdMoreHomeListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdMoreHomeListController.m; sourceTree = "<group>"; };
+		F02CC7DA2A429041005EDCC9 /* AdMoreBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMoreBaseController.h; sourceTree = "<group>"; };
+		F02CC7DB2A429041005EDCC9 /* AdMoreGlobalDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMoreGlobalDefine.h; sourceTree = "<group>"; };
+		F02CC7DC2A429041005EDCC9 /* AdMoreHomeListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMoreHomeListController.h; sourceTree = "<group>"; };
+		F02CC7DD2A429041005EDCC9 /* AdMoreBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdMoreBaseController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F00282A72A0882B600DAF425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F002830B2A0886F600DAF425 /* WebKit.framework in Frameworks */,
+				F00287272A08CD3400DAF425 /* DeviceCheck.framework in Frameworks */,
+				F002831B2A08874900DAF425 /* libc++abi.tbd in Frameworks */,
+				F00283192A08873F00DAF425 /* libz.tbd in Frameworks */,
+				F00283172A08873800DAF425 /* libxml2.tbd in Frameworks */,
+				F00283152A08873000DAF425 /* libsqlite3.tbd in Frameworks */,
+				F00283132A08872700DAF425 /* libresolv.9.tbd in Frameworks */,
+				F00283112A08871D00DAF425 /* libiconv.tbd in Frameworks */,
+				F002830F2A08871500DAF425 /* libc++.tbd in Frameworks */,
+				F002830D2A0886FE00DAF425 /* libbz2.tbd in Frameworks */,
+				F002871C2A08C83300DAF425 /* CoreFoundation.framework in Frameworks */,
+				F00286CF2A08ADB000DAF425 /* StoreKit.framework in Frameworks */,
+				F00283092A0886EF00DAF425 /* UIKit.framework in Frameworks */,
+				F00283072A0886E800DAF425 /* SystemConfiguration.framework in Frameworks */,
+				F00283032A0886D800DAF425 /* Security.framework in Frameworks */,
+				F00283012A0886D100DAF425 /* QuartzCore.framework in Frameworks */,
+				F00282FF2A0886CB00DAF425 /* MobileCoreServices.framework in Frameworks */,
+				F00282FD2A0886C400DAF425 /* MediaPlayer.framework in Frameworks */,
+				F00282FB2A0886BD00DAF425 /* MapKit.framework in Frameworks */,
+				F00282F92A0886B600DAF425 /* JavaScriptCore.framework in Frameworks */,
+				F00282F72A0886B000DAF425 /* ImageIO.framework in Frameworks */,
+				F00282F52A0886A900DAF425 /* CoreText.framework in Frameworks */,
+				F00282F32A0886A200DAF425 /* CoreTelephony.framework in Frameworks */,
+				F00282F12A08869C00DAF425 /* CoreMotion.framework in Frameworks */,
+				F00282EF2A08869600DAF425 /* CoreMedia.framework in Frameworks */,
+				F00282ED2A08868C00DAF425 /* CoreLocation.framework in Frameworks */,
+				F00282EB2A08868100DAF425 /* CoreImage.framework in Frameworks */,
+				F00282E92A08867B00DAF425 /* CoreGraphics.framework in Frameworks */,
+				F00282E72A08867400DAF425 /* AVFoundation.framework in Frameworks */,
+				F00282E52A08866E00DAF425 /* AudioToolbox.framework in Frameworks */,
+				F00282E32A08866700DAF425 /* AdSupport.framework in Frameworks */,
+				F00282E12A08866000DAF425 /* Accelerate.framework in Frameworks */,
+				A95570CB7E59A899B3320237 /* libPods-AdMoreSDKDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24ACFCAA2263CEB397497392 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADCCED2198F9C2F70303DDAD /* Pods-AdMoreSDKDemo.debug.xcconfig */,
+				159EBEBC980FCE2B886E94DB /* Pods-AdMoreSDKDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4BA8B9BD15BEA95947812B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F00287262A08CD3300DAF425 /* DeviceCheck.framework */,
+				F002871B2A08C83300DAF425 /* CoreFoundation.framework */,
+				F00286CE2A08ADB000DAF425 /* StoreKit.framework */,
+				F002831A2A08874900DAF425 /* libc++abi.tbd */,
+				F00283182A08873E00DAF425 /* libz.tbd */,
+				F00283162A08873800DAF425 /* libxml2.tbd */,
+				F00283142A08873000DAF425 /* libsqlite3.tbd */,
+				F00283122A08872700DAF425 /* libresolv.9.tbd */,
+				F00283102A08871D00DAF425 /* libiconv.tbd */,
+				F002830E2A08871500DAF425 /* libc++.tbd */,
+				F002830C2A0886FE00DAF425 /* libbz2.tbd */,
+				F002830A2A0886F600DAF425 /* WebKit.framework */,
+				F00283082A0886EF00DAF425 /* UIKit.framework */,
+				F00283062A0886E800DAF425 /* SystemConfiguration.framework */,
+				F00283022A0886D800DAF425 /* Security.framework */,
+				F00283002A0886D100DAF425 /* QuartzCore.framework */,
+				F00282FE2A0886CB00DAF425 /* MobileCoreServices.framework */,
+				F00282FC2A0886C400DAF425 /* MediaPlayer.framework */,
+				F00282FA2A0886BD00DAF425 /* MapKit.framework */,
+				F00282F82A0886B600DAF425 /* JavaScriptCore.framework */,
+				F00282F62A0886B000DAF425 /* ImageIO.framework */,
+				F00282F42A0886A900DAF425 /* CoreText.framework */,
+				F00282F22A0886A200DAF425 /* CoreTelephony.framework */,
+				F00282F02A08869C00DAF425 /* CoreMotion.framework */,
+				F00282EE2A08869600DAF425 /* CoreMedia.framework */,
+				F00282EC2A08868C00DAF425 /* CoreLocation.framework */,
+				F00282EA2A08868100DAF425 /* CoreImage.framework */,
+				F00282E82A08867B00DAF425 /* CoreGraphics.framework */,
+				F00282E62A08867400DAF425 /* AVFoundation.framework */,
+				F00282E42A08866E00DAF425 /* AudioToolbox.framework */,
+				F00282E22A08866700DAF425 /* AdSupport.framework */,
+				F00282E02A08866000DAF425 /* Accelerate.framework */,
+				45CAF7AFE347FA30F8102F6C /* libPods-AdMoreSDKDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F00282A12A0882B600DAF425 = {
+			isa = PBXGroup;
+			children = (
+				F00282AC2A0882B600DAF425 /* AdMoreSDKDemo */,
+				F00282AB2A0882B600DAF425 /* Products */,
+				24ACFCAA2263CEB397497392 /* Pods */,
+				E4BA8B9BD15BEA95947812B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F00282AB2A0882B600DAF425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F00282AA2A0882B600DAF425 /* AdMoreSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F00282AC2A0882B600DAF425 /* AdMoreSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F02CC7BF2A429041005EDCC9 /* Ad-Demo */,
+				F00282B92A0882B700DAF425 /* Assets.xcassets */,
+				F00282BE2A0882B700DAF425 /* Info.plist */,
+				F00282BB2A0882B700DAF425 /* LaunchScreen.storyboard */,
+				F00282BF2A0882B700DAF425 /* main.m */,
+				F00282B62A0882B600DAF425 /* Main.storyboard */,
+			);
+			path = AdMoreSDKDemo;
+			sourceTree = "<group>";
+		};
+		F02CC7BF2A429041005EDCC9 /* Ad-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F02CC7D22A429041005EDCC9 /* AdMoreBannerAdController.h */,
+				F02CC7C12A429041005EDCC9 /* AdMoreBannerAdController.m */,
+				F02CC7C32A429041005EDCC9 /* AdMoreDrawAdController.h */,
+				F02CC7D02A429041005EDCC9 /* AdMoreDrawAdController.m */,
+				F02CC7C22A429041005EDCC9 /* AdMoreFullScreenInterstitialAdController.h */,
+				F02CC7D12A429041005EDCC9 /* AdMoreFullScreenInterstitialAdController.m */,
+				F02CC7C02A429041005EDCC9 /* AdMoreNativeAdController.h */,
+				F02CC7D32A429041005EDCC9 /* AdMoreNativeAdController.m */,
+				F02CC7D42A429041005EDCC9 /* AdMoreRewardVideoAdController.h */,
+				F02CC7CE2A429041005EDCC9 /* AdMoreRewardVideoAdController.m */,
+				F02CC7D72A429041005EDCC9 /* AdMoreSplashAdController.h */,
+				F02CC7CF2A429041005EDCC9 /* AdMoreSplashAdController.m */,
+				F02CC7D62A429041005EDCC9 /* AdSlotIdDefine.h */,
+				F02CC7C42A429041005EDCC9 /* AppDelegate.h */,
+				F02CC7D52A429041005EDCC9 /* AppDelegate.m */,
+				F02CC7D82A429041005EDCC9 /* Base */,
+				F02CC7C52A429041005EDCC9 /* Category */,
+			);
+			path = "Ad-Demo";
+			sourceTree = "<group>";
+		};
+		F02CC7C52A429041005EDCC9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F02CC7C62A429041005EDCC9 /* MBProgressHUD.m */,
+				F02CC7C72A429041005EDCC9 /* UIView+HHAdditions.m */,
+				F02CC7C82A429041005EDCC9 /* UIView+HUD.h */,
+				F02CC7C92A429041005EDCC9 /* MBProgressHUD+HHExtension.m */,
+				F02CC7CA2A429041005EDCC9 /* MBProgressHUD.h */,
+				F02CC7CB2A429041005EDCC9 /* UIView+HUD.m */,
+				F02CC7CC2A429041005EDCC9 /* UIView+HHAdditions.h */,
+				F02CC7CD2A429041005EDCC9 /* MBProgressHUD+HHExtension.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F02CC7D82A429041005EDCC9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F02CC7DA2A429041005EDCC9 /* AdMoreBaseController.h */,
+				F02CC7DD2A429041005EDCC9 /* AdMoreBaseController.m */,
+				F02CC7DB2A429041005EDCC9 /* AdMoreGlobalDefine.h */,
+				F02CC7DC2A429041005EDCC9 /* AdMoreHomeListController.h */,
+				F02CC7D92A429041005EDCC9 /* AdMoreHomeListController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F00282A92A0882B600DAF425 /* AdMoreSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00282C32A0882B700DAF425 /* Build configuration list for PBXNativeTarget "AdMoreSDKDemo" */;
+			buildPhases = (
+				CBD1B3AFF482DB53C089D24E /* [CP] Check Pods Manifest.lock */,
+				F00282A62A0882B600DAF425 /* Sources */,
+				F00282A72A0882B600DAF425 /* Frameworks */,
+				F00282A82A0882B600DAF425 /* Resources */,
+				496691107ADD69B7446FBCCE /* [CP] Embed Pods Frameworks */,
+				F0210FAD2A164EA9008E3BFC /* Embed Frameworks */,
+				AFC0927C19FFD6DC1F2764A0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdMoreSDKDemo;
+			productName = AdMoreSDKDemo;
+			productReference = F00282AA2A0882B600DAF425 /* AdMoreSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F00282A22A0882B600DAF425 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F00282A92A0882B600DAF425 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = F00282A52A0882B600DAF425 /* Build configuration list for PBXProject "AdMoreSDKDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F00282A12A0882B600DAF425;
+			productRefGroup = F00282AB2A0882B600DAF425 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F00282A92A0882B600DAF425 /* AdMoreSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F00282A82A0882B600DAF425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00282BD2A0882B700DAF425 /* LaunchScreen.storyboard in Resources */,
+				F00282BA2A0882B700DAF425 /* Assets.xcassets in Resources */,
+				F00282B82A0882B600DAF425 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		496691107ADD69B7446FBCCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdMoreSDKDemo/Pods-AdMoreSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdMoreSDKDemo/Pods-AdMoreSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdMoreSDKDemo/Pods-AdMoreSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFC0927C19FFD6DC1F2764A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdMoreSDKDemo/Pods-AdMoreSDKDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdMoreSDKDemo/Pods-AdMoreSDKDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdMoreSDKDemo/Pods-AdMoreSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBD1B3AFF482DB53C089D24E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdMoreSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F00282A62A0882B600DAF425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02CC7E22A429041005EDCC9 /* UIView+HUD.m in Sources */,
+				F02CC7E52A429041005EDCC9 /* AdMoreDrawAdController.m in Sources */,
+				F02CC7EA2A429041005EDCC9 /* AdMoreBaseController.m in Sources */,
+				F02CC7E42A429041005EDCC9 /* AdMoreSplashAdController.m in Sources */,
+				F02CC7E32A429041005EDCC9 /* AdMoreRewardVideoAdController.m in Sources */,
+				F02CC7DE2A429041005EDCC9 /* AdMoreBannerAdController.m in Sources */,
+				F02CC7E72A429041005EDCC9 /* AdMoreNativeAdController.m in Sources */,
+				F02CC7E92A429041005EDCC9 /* AdMoreHomeListController.m in Sources */,
+				F02CC7DF2A429041005EDCC9 /* MBProgressHUD.m in Sources */,
+				F02CC7E02A429041005EDCC9 /* UIView+HHAdditions.m in Sources */,
+				F02CC7E82A429041005EDCC9 /* AppDelegate.m in Sources */,
+				F02CC7E62A429041005EDCC9 /* AdMoreFullScreenInterstitialAdController.m in Sources */,
+				F02CC7E12A429041005EDCC9 /* MBProgressHUD+HHExtension.m in Sources */,
+				F00282C02A0882B700DAF425 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F00282B62A0882B600DAF425 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F00282B72A0882B600DAF425 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F00282BB2A0882B700DAF425 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F00282BC2A0882B700DAF425 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F00282C12A0882B700DAF425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F00282C22A0882B700DAF425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F00282C42A0882B700DAF425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADCCED2198F9C2F70303DDAD /* Pods-AdMoreSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W75AH6UU68;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/SDK/CSJ",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/SDK/ByteDance",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/SDK/More",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/SDK",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/SDK/Sigmob",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/SDK/Baidu",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/SDK/KS",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/AdMoreSDK",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/AdMoreSDK/Baidu",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/AdMoreSDK/CSJ",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/AdMoreSDK/KS",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/AdMoreSDK/Sigmob",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdMoreSDKDemo/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "APP需要您的定位服务，否则可能无法使用";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "APP需要您的定位服务，否则可能无法使用";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "APP需要您的定位服务，否则可能无法使用";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "请允许获取并使用您的活动跟踪，以便于向您进行个性化推送服务，从而减少无关服务对您造成的干扰";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/SDK/ByteDance/BURelyFoundation",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/Adapter/GDT",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/Adapter/sigmob",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/Adapter/CSJ",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/Adapter/more",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/SDK/GDT",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/Adapter/Baidu",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/Adapter/KS",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartcity.sz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F00282C52A0882B700DAF425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 159EBEBC980FCE2B886E94DB /* Pods-AdMoreSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W75AH6UU68;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/SDK/CSJ",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/SDK/ByteDance",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/SDK/More",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/SDK",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/SDK/Sigmob",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/SDK/Baidu",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/SDK/KS",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/AdMoreSDK",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/AdMoreSDK/Baidu",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/AdMoreSDK/CSJ",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/AdMoreSDK/KS",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/AdMoreSDK/Sigmob",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdMoreSDKDemo/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "APP需要您的定位服务，否则可能无法使用";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "APP需要您的定位服务，否则可能无法使用";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "APP需要您的定位服务，否则可能无法使用";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "请允许获取并使用您的活动跟踪，以便于向您进行个性化推送服务，从而减少无关服务对您造成的干扰";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/SDK/ByteDance/BURelyFoundation",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/Adapter/GDT",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/Adapter/sigmob",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/Adapter/CSJ",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/Adapter/more",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/SDK/GDT",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/Adapter/Baidu",
+					"$(PROJECT_DIR)/AdMoreSDKDemo/Classes/Adapter/KS",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartcity.sz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F00282A52A0882B600DAF425 /* Build configuration list for PBXProject "AdMoreSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00282C12A0882B700DAF425 /* Debug */,
+				F00282C22A0882B700DAF425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F00282C32A0882B700DAF425 /* Build configuration list for PBXNativeTarget "AdMoreSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00282C42A0882B700DAF425 /* Debug */,
+				F00282C52A0882B700DAF425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F00282A22A0882B600DAF425 /* Project object */;
+}
